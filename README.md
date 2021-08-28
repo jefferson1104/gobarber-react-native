@@ -1,9 +1,9 @@
 <div align="center" style="margin-bottom: 20px;">
-  <img alt="gobarber" src="./assets/images/goBarber-logo.svg" width="auto" heigth="auto"/>
+  <img alt="gobarber" src="/assets/img/goBarber-logo.svg" width="auto" heigth="auto"/>
 </div>
 
 <p align="center">
-  <img alt="technology" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  <img alt="technology" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 </p>
 
 ## :barber: O projeto
