@@ -1,53 +1,48 @@
 <div align="center" style="margin-bottom: 20px;">
   <img alt="gobarber" src="/assets/img/goBarber-logo.svg" width="auto" heigth="auto"/>
+  <p align="center" style="margin-top: 20px;">
+    <img alt="technology" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+    <img alt="technology" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+    <img alt="technology" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
+  </p>
 </div>
 
-<p align="center">
-  <img alt="technology" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-</p>
+## :barber: About this project
 
-## :barber: O projeto
+This project is a mobile version of the gobarber project, its source code was developed with React Native technology to work on Android and IOS devices.
 
-Este projeto é uma versão mobile do projeto gobarber, seu código fonte foi desenvolvido com a tecnologia React Native para funcionar em dispositivos Android e IOS.
-<p align="center">
+<div align="center">
   <img alt="gobarber" src="/assets/img/mobile-screenshot.png" width="200"/>
-</p>
+</div>
 
-## :rocket: Principais tecnologias
-
+## :rocket: Main technologies
 - [TypeScript](https://www.typescriptlang.org/docs/)
 - [React Native](https://reactnative.dev/)
 - [Axios](https://github.com/axios/axios)
 - [Styled-Components](https://styled-components.com/)
 
-## :zap: Como executar este projeto
-Para iniciar o aplicativo do **gobarber** na versão mobile (APP) também é necessário que o [Back-end (API)](https://github.com/jefferson1104/gobarber-nodejs) do projeto esteja iniciada e em execução, tambem certifique-se de ter um ambiente configurado para executar um emulador de smartphone em seu computador, em minha máquina eu utilizei um emulador android do proprio android estudio, o AVD (Android Virtual Device) utilize uma vm com no minímo android Pie 9 ou mais atualizado, e uma versao tambem com acesso a google play, no meu exemplo eu utilizei uma vm do **_Google Pixel 3a_**
+## :zap: How to run this project
+To start the **gobarber** application in the mobile version (APP) it is also necessary that the [Back-end (API)](https://github.com/jefferson1104/gobarber-nodejs) of the project is started and in execution, also make sure you have an environment configured to run a smartphone emulator on your computer, on my machine I used an android emulator from android studio itself, AVD (Android Virtual Device) use a vm with at least android Pie 9 or more updated, and a version also with access to google play, in my example I used a vm from **_Google Pixel 3a_**
 
-Voce também pode utilizar o Expo, para isso saiba como configurar o expo em seu computador para emular ou até mesmo utilizar seu proprio smartphone.
+You can also use Expo, for that know how to configure the expo on your computer to emulate or even use your own smartphone.
 
 <div align="center" style="margin-bottom: 20px;">
   <img alt="gobarber" src="/assets/img/screenshot_avd.png" width="auto" heigth="auto"/>
 </div>
 
-> **IMPORTANTE**: Caso você utilize o mesmo método que eu para executar a aplicação em um emulador do android studio, logo após iniciar o emulador é importante executar o comando `adb reverse tcp:3333 tcp:3333` no terminal para ter comunicação com o emulador e você conseguir instalar o app do goBarbar.
+> **IMPORTANT**: If you use the same method as me to run the application in an android studio emulator, right after starting the emulator it is important to run the command `adb reverse tcp:3333 tcp:3333` in the terminal to have communication with the emulator and you can install the goBarbar app.
 
-Para iniciar a versão mobile (APP) do projeto:
-
+#### To start the mobile version (APP) of the project:
 ```Bash
-# Acesse o diretório mobile
+# Access the mobile directory
 $ cd gobarber-react-native
 
-# Instale todas as dependencias do projeto
+# Install all project dependencies
 $ yarn
 
-# Considerando que seu emulador ja esteja iniciado e que voce ja tenha executado o comando de reverse, instale o aplicativo no emulador.
+# Assuming your emulator is already started and you have already run the reverse command, install the application on the emulator.
 $ yarn android
 
-# Iniciar app no emulador
+# Launch app in emulator
 $ yarn start
 ```
-
-
-### :memo: Licença
-
-Este projeto é desenvolvido sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para saber mais detalhes.
